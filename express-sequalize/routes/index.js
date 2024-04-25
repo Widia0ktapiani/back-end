@@ -1,6 +1,6 @@
 const route = require('express').Router()
 
-route.get('/intro', (req, res) => {
+route.get('/', (req, res) => {
     res.send('Hello Widia!')
   })
 
